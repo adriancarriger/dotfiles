@@ -23,6 +23,7 @@ brew "pkg-config"
 brew "putty"
 brew "readline"
 brew "python"
+brew "spark"
 brew "tesseract", args: ["with-all-languages"]
 brew "tmux"
 brew "watchman"

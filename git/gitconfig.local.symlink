@@ -1,0 +1,5 @@
+[user]
+        name = Adrian Carriger
+        email = hello@adriancarriger.com
+[credential]
+        helper = osxkeychain
