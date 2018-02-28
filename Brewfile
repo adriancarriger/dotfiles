@@ -26,6 +26,7 @@ brew "python"
 brew "spark"
 brew "tesseract", args: ["with-all-languages"]
 brew "tmux"
+brew "watch"
 brew "watchman"
 brew "yarn"
 brew "zsh"
