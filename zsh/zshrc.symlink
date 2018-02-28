@@ -1,7 +1,7 @@
-source "$HOME/.dotfiles/ui/loading-start.sh"
+source "$DOTFILES/ui/loading-start.sh"
 
 # shortcut to this dotfiles path is $ZSH
-export ZSH=$HOME/.dotfiles
+export DOTFILES=$HOME/.dotfiles
 
 # your project folder that we can `c [tab]` to
 export PROJECTS=~/Code
@@ -16,7 +16,7 @@ fi
 
 # all of our zsh files
 typeset -U config_files
-config_files=($ZSH/**/*.zsh)
+config_files=($DOTFILES/**/*.zsh)
 
 # load the path files
 for file in ${(M)config_files:#*/path.zsh}
@@ -51,4 +51,4 @@ zle -N down-line-or-beginning-search
 bindkey "^[[A" up-line-or-beginning-search # Up
 bindkey "^[[B" down-line-or-beginning-search # Down
 
-source "$HOME/.dotfiles/ui/loading-end.sh"
+source "$DOTFILES/ui/loading-end.sh"
