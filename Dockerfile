@@ -20,6 +20,7 @@ RUN locale-gen en_US.UTF-8
 
 # Enable sudo for $USER
 RUN echo "$USER ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers
+RUN echo "root:Docker!" | chpasswd
 
 COPY . /home/${USER}/.dotfiles/.
 RUN chown -R $USER:$USER /home/${USER}
@@ -27,6 +28,8 @@ RUN chown -R $USER:$USER /home/${USER}
 WORKDIR /home/${USER}
 USER $USER
 
-RUN /home/${USER}/.dotfiles/homebrew/install.sh
+RUN /home/${USER}/.dotfiles/scripts/bootstrap
 
-CMD ["/bin/bash"]
+ENV PATH="${PATH}:/home/linuxbrew/.linuxbrew/bin"
+
+CMD ["zsh"]

@@ -1,5 +1,5 @@
 #!/bin/sh
 #
-# Sets macOS defaults by running $DOTFILES/macos/set-defaults.sh.
+# Sets OS level defaults by running $DOTFILES/os-defaults/set-defaults.sh.
 
-exec $DOTFILES/macos/set-defaults.sh
+exec $DOTFILES/os-defaults/set-defaults.sh
