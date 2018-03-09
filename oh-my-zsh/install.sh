@@ -1,1 +1,10 @@
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+# https://github.com/robbyrussell/oh-my-zsh/blob/master/tools/install.sh#L34-L36
+if [ ! -n "$ZSH" ]; then
+  ZSH=~/.oh-my-zsh
+fi
+
+# https://github.com/robbyrussell/oh-my-zsh/blob/master/tools/install.sh#L64-L67
+env git clone --depth=1 https://github.com/robbyrussell/oh-my-zsh.git $ZSH || {
+  printf "Error: git clone of oh-my-zsh repo failed\n"
+  exit 1
+}
