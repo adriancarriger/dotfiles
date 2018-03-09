@@ -20,6 +20,7 @@ brew "imagemagick"
 brew "jmeter"
 brew "libksba"
 brew "libyaml"
+brew "nvm"
 brew "openssl@1.1"
 brew "pkg-config"
 brew "readline"
@@ -28,7 +29,7 @@ brew "spark"
 brew "tmux"
 brew "watch"
 brew "watchman"
-brew "yarn"
+# brew "yarn"
 brew "zsh"
 
 unless ENV['HOMEBREW_SYSTEM'] == 'Linux'
@@ -46,7 +47,7 @@ unless ENV['HOMEBREW_SYSTEM'] == 'Linux'
   mas "Wunderlist", id: 410628904
   mas "Xcode", id: 497799835
 
-  cask "dbeaver-community"
+  # cask "dbeaver-community"
   cask "virtualbox"
   cask "caskroom/fonts/font-fira-code"
 end
