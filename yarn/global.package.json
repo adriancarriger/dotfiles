@@ -1,0 +1,16 @@
+{
+  "name": "global",
+  "version": "1.0.0",
+  "description": "Global node packages",
+  "scripts": {
+    "test": "echo 'no tests found'"
+  },
+  "author": "Adrian Carriger <hello@adriancarriger.com>",
+  "license": "MIT",
+  "dependencies": {
+    "local-web-server": "*",
+    "ts-node": "*",
+    "typescript": "*"
+  },
+  "devDependencies": {}
+}
