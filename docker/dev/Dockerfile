@@ -7,6 +7,7 @@ RUN homebrew/install.sh
 ENV PATH="${PATH}:/home/linuxbrew/.linuxbrew/bin"
 
 # Bundle
+RUN brew update 
 COPY Brewfile .
 RUN brew bundle
 

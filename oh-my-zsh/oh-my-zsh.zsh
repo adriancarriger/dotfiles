@@ -13,3 +13,6 @@ ZSH_THEME="robbyrussell"
 plugins=(git)
 
 source "$ZSH/oh-my-zsh.sh"
+
+# Export oh-my-zsh dependent paths
+export PATH="$PATH:`yarn global bin`"
