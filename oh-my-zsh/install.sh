@@ -1,7 +1,5 @@
-# https://github.com/robbyrussell/oh-my-zsh/blob/master/tools/install.sh#L34-L36
-if [ ! -n "$ZSH" ]; then
-  ZSH=~/.oh-my-zsh
-fi
+ZSH="$HOME/.oh-my-zsh"
+ZSH_CUSTOM="$HOME/.zsh-custom"
 
 if [ ! -d $ZSH ]; then
   # https://github.com/robbyrussell/oh-my-zsh/blob/master/tools/install.sh#L64-L67
@@ -9,4 +7,6 @@ if [ ! -d $ZSH ]; then
     printf "Error: git clone of oh-my-zsh repo failed\n"
     exit 1
   }
+  git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
+  git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM}/plugins/zsh-syntax-highlighting
 fi
