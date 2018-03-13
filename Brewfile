@@ -7,7 +7,7 @@ tap "homebrew/core"
 tap "puma/puma"
 
 brew "autoconf"
-brew "automake"
+# brew "automake"
 brew "coreutils"
 brew "curl"
 brew "dos2unix"
