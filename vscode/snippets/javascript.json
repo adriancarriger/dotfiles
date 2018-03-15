@@ -1,0 +1,7 @@
+{
+  "importDestructing": {
+    "prefix": "rd",
+    "body": "const { $2 } = require('${1:module}');$0",
+    "description": "Imports only a portion of the module in ES5+ syntax"
+  }
+}

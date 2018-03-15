@@ -1,0 +1,39 @@
+{
+  "window.zoomLevel": 0,
+  "editor.minimap.enabled": true,
+  "editor.renderWhitespace": "boundary",
+  "editor.tabSize": 2,
+  "editor.snippetSuggestions": "top",
+  "editor.autoIndent": true,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 24,
+  "workbench.colorTheme": "Material Theme",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "newUntitledFile",
+  "css.validate": false,
+  "javascript.implicitProjectConfig.checkJs": true,
+  "diffEditor.ignoreTrimWhitespace": true,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "files.exclude": {
+    "**/.git": false
+  },
+  "files.associations": {
+    "*.symlink": "shellscript",
+    "*.env": "properties",
+    "default-packages": "shellscript"
+  },
+  "material-icon-theme.showUpdateMessage": false,
+  "material-icon-theme.files.associations": {
+    // For non-Angular services
+    "*.service.ts": "typescript",
+    "*.symlink": "console",
+    "Gemfile": "ruby"
+  },
+  "materialTheme.cache.workbench.settings": {
+    "themeColours": "Palenight"
+  },
+  "extensions.ignoreRecommendations": true,
+  "gitlens.keymap": "alternate",
+}
