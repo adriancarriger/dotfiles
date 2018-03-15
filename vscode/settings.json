@@ -36,4 +36,5 @@
   },
   "extensions.ignoreRecommendations": true,
   "gitlens.keymap": "alternate",
+  "git.autofetch": true,
 }
