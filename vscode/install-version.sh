@@ -1,14 +1,18 @@
 #!/bin/bash
 
-vscode_user=${CODE_VERSION_PATH:-~/Library/Application\ Support/Code/User}
-# Backup current state
-[ ! -d $DOTFILES/vscode/.backups ] && mkdir -p $DOTFILES/vscode/.backups/snippets
-cp ~/Library/Application\ Support/Code/User/settings.json ~/.dotfiles/vscode/.backups/
-cp ~/Library/Application\ Support/Code/User/keybindings.json ~/.dotfiles/vscode/.backups/
-cp -r ~/Library/Application\ Support/Code/User/snippets/ ~/.dotfiles/vscode/.backups/snippets
+CODE_VERSION=${CODE_VERSION:-code}
+[[ $CODE_VERSION == 'code' ]] && CODE_DIR=Code || CODE_DIR=Code\ -\ Insiders
+VSCODE_USER_PATH=~/Library/Application\ Support/$CODE_DIR/User
 
-# Link config
-ln -sf ~/.dotfiles/vscode/settings.json $vscode_user/settings.json
-ln -sf ~/.dotfiles/vscode/keybindings.json $vscode_user/keybindings.json
-[ ! -L "$vscode_user/snippets" ] && ln -sf ~/.dotfiles/vscode/snippets/ $vscode_user/snippets
+if [ ! -L ~/Library/Application\ Support/$CODE_DIR/User/settings.json ]; then
+  # Backup current state
+  [ ! -d $DOTFILES/vscode/.backups/$CODE_VERSION ] && mkdir -p $DOTFILES/vscode/.backups/$CODE_VERSION/snippets
+  cp ~/Library/Application\ Support/$CODE_DIR/User/settings.json ~/.dotfiles/vscode/.backups/$CODE_VERSION/
+  cp ~/Library/Application\ Support/$CODE_DIR/User/keybindings.json ~/.dotfiles/vscode/.backups/$CODE_VERSION/
+  cp -r ~/Library/Application\ Support/$CODE_DIR/User/snippets/ ~/.dotfiles/vscode/.backups/$CODE_VERSION/
 
+  # Link config
+  ln -sf ~/.dotfiles/vscode/settings.json $VSCODE_USER_PATH/settings.json
+  ln -sf ~/.dotfiles/vscode/keybindings.json $VSCODE_USER_PATH/keybindings.json
+  [ ! -L "$VSCODE_USER_PATH/snippets" ] && ln -sf ~/.dotfiles/vscode/snippets/ $VSCODE_USER_PATH/snippets
+fi
