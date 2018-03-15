@@ -9,6 +9,7 @@ RUN groupadd --gid 1000 $USER \
   && useradd --uid 1000 --gid $USER --shell /bin/bash --create-home $USER
 
 RUN apt-get update && apt-get install -y \
+  gcc \
   git \
   curl \
   sudo \
