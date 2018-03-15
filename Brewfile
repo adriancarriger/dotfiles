@@ -2,6 +2,7 @@ cask_args appdir: '/Applications'
 
 tap "caskroom/cask"
 tap "caskroom/fonts"
+tap "caskroom/versions"
 tap "homebrew/bundle"
 tap "homebrew/core"
 tap "puma/puma"
@@ -30,7 +31,7 @@ brew "watch"
 brew "watchman"
 brew "zsh"
 
-unless ENV['HOMEBREW_SYSTEM'] == 'Linux'
+unless ENV['HOMEBREW_SYSTEM'] == 'Linux'  
   brew "mas"
   brew "putty"
   brew "tesseract", args: ["with-all-languages"]
@@ -46,6 +47,8 @@ unless ENV['HOMEBREW_SYSTEM'] == 'Linux'
   mas "Xcode", id: 497799835
 
   # cask "dbeaver-community"
+  cask "visual-studio-code"
+  cask "caskroom/versions/visual-studio-code-insiders"
   cask "virtualbox"
   cask "caskroom/fonts/font-fira-code"
 end
