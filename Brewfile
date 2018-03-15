@@ -12,7 +12,6 @@ brew "autoconf"
 brew "coreutils"
 brew "curl"
 brew "dos2unix"
-brew "gcc"
 brew "git"
 brew "git-lfs"
 brew "libtool"
@@ -31,7 +30,8 @@ brew "watch"
 brew "watchman"
 brew "zsh"
 
-unless ENV['HOMEBREW_SYSTEM'] == 'Linux'  
+unless ENV['HOMEBREW_SYSTEM'] == 'Linux'
+  brew "gcc"
   brew "mas"
   brew "putty"
   brew "tesseract", args: ["with-all-languages"]
