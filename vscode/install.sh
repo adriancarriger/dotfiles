@@ -10,7 +10,7 @@ then
   fi
   if test ! $(which code-insiders); then
     # VS Code Insiders
-    CODE_VERSION_PATH=~/Library/Application\ Support/Code\ -\ Insiders/User ./$DOTFILES/vscode/install-version.sh
+    CODE_VERSION=code-insiders ./$DOTFILES/vscode/install-version.sh
   fi
 elif test "$(expr substr $(uname -s) 1 5)" = "Linux"
 then
