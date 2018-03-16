@@ -1,0 +1,1 @@
+alias ci='code-insiders $*'

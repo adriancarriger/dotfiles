@@ -9,6 +9,8 @@ tap "puma/puma"
 
 brew "autoconf"
 # brew "automake"
+brew "docker-completion"
+brew "docker-compose-completion"
 brew "coreutils"
 brew "curl"
 brew "dos2unix"
@@ -29,6 +31,7 @@ brew "tmux"
 brew "watch"
 brew "watchman"
 brew "zsh"
+brew 'zsh-completions'
 
 unless ENV['HOMEBREW_SYSTEM'] == 'Linux'
   brew "gcc"
