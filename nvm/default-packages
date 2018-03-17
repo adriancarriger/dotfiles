@@ -2,3 +2,5 @@ yarn
 local-web-server
 ts-node
 typescript
+semantic-release-cli
+fkill-cli

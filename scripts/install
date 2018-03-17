@@ -6,6 +6,9 @@ set -e
 
 cd "$(dirname $0)"/..
 
+# Ask for the administrator password upfront
+sudo -v
+
 # Run Homebrew through the Brewfile
 echo "› brew bundle"
 brew bundle

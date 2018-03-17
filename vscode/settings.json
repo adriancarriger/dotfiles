@@ -35,8 +35,6 @@
     "themeColours": "Palenight"
   },
   "extensions.ignoreRecommendations": true,
-  "gitlens.keymap": "alternate",
   "git.autofetch": true,
-  "docker.showExplorer": false,
-  "gitlens.gitExplorer.enabled": false
+  "docker.showExplorer": false
 }
