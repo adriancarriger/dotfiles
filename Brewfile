@@ -50,6 +50,7 @@ unless ENV['HOMEBREW_SYSTEM'] == 'Linux'
   mas "Xcode", id: 497799835
 
   # cask "dbeaver-community"
+  cask "font-hack-nerd-font"
   cask "spectacle"
   cask "visual-studio-code"
   cask "caskroom/versions/visual-studio-code-insiders"

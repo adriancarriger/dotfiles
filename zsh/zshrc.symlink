@@ -3,7 +3,7 @@ export DOTFILES=$HOME/.dotfiles
 
 # your project folder that we can `c [tab]` to
 export PROJECTS=~/Code
-export TERM=xterm
+export TERM="xterm-256color"
 
 source "$DOTFILES/ui/loading-start.sh"
 
