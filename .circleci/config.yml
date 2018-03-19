@@ -24,3 +24,15 @@ jobs:
           command: |
             docker run dotfiles which zsh
             docker run dotfiles zsh -c 'source ~/.zshrc && which ws'
+      - run:
+          name: Push to Docker Hub
+          command: |
+            if [[ $CIRCLE_BRANCH == "master" ]]; then
+              docker login -u $DOCKER_USER -p $DOCKER_PASS
+
+              docker tag dotfiles adriancarriger/dotfiles:latest
+              docker push adriancarriger/dotfiles:latest
+
+              docker tag dotfiles "adriancarriger/dotfiles:${CIRCLE_BUILD_NUM}"
+              docker push "adriancarriger/dotfiles:${CIRCLE_BUILD_NUM}"
+            fi
