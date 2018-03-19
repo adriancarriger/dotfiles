@@ -9,5 +9,5 @@ if [ ! -d $ZSH ]; then
   }
   git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
   git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM}/plugins/zsh-syntax-highlighting
-  git clone https://github.com/bhilburn/powerlevel9k.git ~/$ZSH_CUSTOM/themes/powerlevel9k
+  git clone https://github.com/bhilburn/powerlevel9k.git $ZSH_CUSTOM/themes/powerlevel9k
 fi
