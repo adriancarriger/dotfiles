@@ -40,6 +40,13 @@ docker build --tag=dotfiles -f docker/dev/Dockerfile .
 docker run -it -v ~/.dotfiles:/home/adrian/.dotfiles dotfiles
 ```
 
+### Docker Hub
+
+```bash
+docker pull adriancarriger/dotfiles
+docker run -it -e "DOCKER_USER=adrian" adriancarriger/dotfiles
+```
+
 ## Thanks
 
 Thank you [Zach Holman](https://github.com/holman) for creating [componentized dotfiles](https://github.com/holman/dotfiles)!
