@@ -6,41 +6,12 @@
 
 ```bash
 git clone https://github.com/adriancarriger/dotfiles.git ~/.dotfiles
-cd ~/.dotfiles
-script/bootstrap
+~/.dotfiles/scripts/bootstrap
 ```
 
 ## Docker
 
-It's dockerized!   🐳
-
-### Base image
-
-Build the base image first.
-
-```bash
-DOCKER_USER=christraeger docker build --tag=dotfiles.base docker/base
-```
-
-### Production
-
-Simulates setting up a new system.
-
-```bash
-docker build --tag=dotfiles -f docker/prod/Dockerfile .
-docker run -it dotfiles
-```
-
-### Development
-
-Faster development using Docker layers.
-
-```bash
-docker build --tag=dotfiles -f docker/dev/Dockerfile .
-docker run -it -v ~/.dotfiles:/home/adrian/.dotfiles dotfiles
-```
-
-### Docker Hub
+Try out these Dotfiles using Docker!   🐳
 
 ```bash
 docker pull adriancarriger/dotfiles
@@ -49,4 +20,5 @@ docker run -it -e "DOCKER_USER=adrian" adriancarriger/dotfiles
 
 ## Thanks
 
-Thank you [Zach Holman](https://github.com/holman) for creating [componentized dotfiles](https://github.com/holman/dotfiles)!
+* [Zach Holman](https://github.com/holman) - [componentized dotfiles](https://github.com/holman/dotfiles)
+* [Mathias Bynens](https://github.com/mathiasbynens) - [awesome macOS defaults](https://github.com/mathiasbynens/dotfiles)
