@@ -2,6 +2,15 @@
 
 🍭 My personal dotfiles. 🍭 Works with macOS and Ubuntu!
 
+## Features
+
+* [ZSH](https://en.wikipedia.org/wiki/Z_shell), [oh-my-zsh](http://ohmyz.sh/), and [Powerlevel9k theme](https://github.com/bhilburn/powerlevel9k)
+* [Brewfile](https://github.com/Homebrew/homebrew-bundle) (linux and Mac)
+* Automated install and settings setup for all Mac apps
+* [nvm](https://github.com/creationix/nvm)
+* [Vs Code](https://code.visualstudio.com/)
+* [Spectacle](https://www.spectacleapp.com/)
+
 ## Install
 
 ```bash
