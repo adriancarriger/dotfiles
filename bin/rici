@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+# Reinstall VS Code Instiders
+
+brew cask uninstall visual-studio-code-insiders
+brew cask install visual-studio-code-insiders
