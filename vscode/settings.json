@@ -34,7 +34,13 @@
   "materialTheme.cache.workbench.settings": {
     "themeColours": "Palenight"
   },
+  "workbench.colorCustomizations": {
+    "editorInfo.foreground": "#00689c"
+  },
   "extensions.ignoreRecommendations": true,
   "git.autofetch": true,
-  "docker.showExplorer": false
+  "docker.showExplorer": false,
+  "doiuse.enable": true,
+  "doiuse.messageLevel": "Information",
+  "doiuse.browsers": ["ie > 10", "> 1%"]
 }
