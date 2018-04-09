@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>AlternateMouseScroll</key>
+	<true/>
 	<key>AppleAntiAliasingThreshold</key>
 	<integer>1</integer>
 	<key>AppleScrollAnimationEnabled</key>
@@ -364,6 +366,8 @@
 	</dict>
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>-15 -688 445 77 -658 -800 1280 777 </string>
+	<key>NSWindow Frame SessionsPreferences</key>
+	<string>-1651 126 606 469 -1920 0 1920 1057 </string>
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>209 136 796 473 0 0 1280 777 </string>
 	<key>NSWindow Frame UKCrashReporter</key>
@@ -371,11 +375,11 @@
 	<key>NSWindow Frame iTerm Window 0</key>
 	<string>0 27 1280 750 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>-658 -773 1280 750 -658 -800 1280 777 </string>
+	<string>0 4 1280 773 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
-	<string>-658 -773 1280 750 -658 -800 1280 777 </string>
+	<string>0 11 1280 758 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 3</key>
-	<string>-658 -773 1280 750 -658 -800 1280 777 </string>
+	<string>-658 -796 1280 773 -658 -800 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 4</key>
 	<string>-658 -796 1280 773 -658 -800 1280 777 </string>
 	<key>New Bookmarks</key>
@@ -1026,7 +1030,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>58960E78-3142-48B8-817D-FACF07660D3F</string>
 	<key>NoSyncLastTipTime</key>
-	<real>543503552.04693902</real>
+	<real>544987348.236696</real>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -1049,6 +1053,22 @@
 		<string>0008</string>
 		<string>0009</string>
 		<string>0010</string>
+		<string>0011</string>
+		<string>0012</string>
+		<string>0013</string>
+		<string>0014</string>
+		<string>0015</string>
+		<string>0016</string>
+		<string>0017</string>
+		<string>0018</string>
+		<string>0019</string>
+		<string>0020</string>
+		<string>0021</string>
+		<string>0022</string>
+		<string>0023</string>
+		<string>0024</string>
+		<string>0025</string>
+		<string>0026</string>
 	</array>
 	<key>PointerActions</key>
 	<dict>
@@ -1094,11 +1114,11 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-03-23T16:06:06Z</date>
+	<date>2018-04-09T17:51:22Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>Secure Input</key>
-	<true/>
+	<false/>
 	<key>ShowBookmarkName</key>
 	<false/>
 	<key>StretchTabsToFillBar</key>
