@@ -42,5 +42,10 @@
   "docker.showExplorer": false,
   "doiuse.enable": true,
   "doiuse.messageLevel": "Information",
-  "doiuse.browsers": ["ie > 10", "> 1%"]
+  "doiuse.browsers": [
+    "ie > 10",
+    "> 1%"
+  ],
+  "explorer.confirmDelete": false,
+  "ruby.rubocop.executePath": "/Users/acarriger/.rvm/gems/ruby-2.4.1/bin/",
 }
