@@ -48,4 +48,5 @@
   ],
   "explorer.confirmDelete": false,
   "ruby.rubocop.executePath": "/Users/acarriger/.rvm/gems/ruby-2.4.1/bin/",
+  "javascript.suggestionActions.enabled": false
 }
