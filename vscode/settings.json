@@ -48,5 +48,10 @@
   ],
   "explorer.confirmDelete": false,
   "ruby.rubocop.executePath": "/Users/acarriger/.rvm/gems/ruby-2.4.1/bin/",
-  "javascript.suggestionActions.enabled": false
+  "javascript.suggestionActions.enabled": false,
+  "prettier.singleQuote": true,
+  "prettier.eslintIntegration": true,
+  "prettier.tabWidth": 2,
+  "editor.formatOnSave": true,
+  "files.insertFinalNewline": true
 }
