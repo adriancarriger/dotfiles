@@ -20,7 +20,7 @@ git clone https://github.com/adriancarriger/dotfiles.git ~/.dotfiles
 
 ## Docker
 
-Try out these Dotfiles using Docker!   🐳
+Try out these Dotfiles using Docker! 🐳
 
 ```bash
 docker pull adriancarriger/dotfiles
@@ -31,3 +31,8 @@ docker run -it -e "DOCKER_USER=adrian" adriancarriger/dotfiles
 
 * [Zach Holman](https://github.com/holman) - [componentized dotfiles](https://github.com/holman/dotfiles)
 * [Mathias Bynens](https://github.com/mathiasbynens) - [awesome macOS defaults](https://github.com/mathiasbynens/dotfiles)
+
+## License
+
+dotfiles is licensed under the MIT Open Source license.
+For more information, see the [LICENSE](LICENSE) file in this repository.
