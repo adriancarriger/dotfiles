@@ -73,7 +73,7 @@
         ui = true
 [core]
         excludesfile = ~/.gitignore
-        editor = vscode
+	editor = code
 [apply]
         whitespace = nowarn
 [mergetool]
