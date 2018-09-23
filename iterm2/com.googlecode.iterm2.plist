@@ -366,22 +366,24 @@
 	</dict>
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>-15 -688 445 77 -658 -800 1280 777 </string>
+	<key>NSWindow Frame SUUpdateAlert</key>
+	<string>330 289 620 392 0 0 1280 777 </string>
 	<key>NSWindow Frame SessionsPreferences</key>
-	<string>-1651 126 606 469 -1920 0 1920 1057 </string>
+	<string>1463 -734 606 469 1325 -800 1280 777 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>209 136 796 473 0 0 1280 777 </string>
+	<string>209 416 796 473 0 0 1920 1057 </string>
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>80 193 592 584 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 27 1280 750 0 0 1280 777 </string>
+	<string>1325 -796 1280 773 1325 -800 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>0 4 1280 773 0 0 1280 777 </string>
+	<string>1325 -796 1280 773 1325 -800 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
-	<string>0 11 1280 758 0 0 1280 777 </string>
+	<string>1325 -1076 1280 773 1325 -800 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 3</key>
-	<string>-658 -796 1280 773 -658 -800 1280 777 </string>
+	<string>0 4 1280 773 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 4</key>
-	<string>-658 -796 1280 773 -658 -800 1280 777 </string>
+	<string>1325 -773 1280 750 1325 -800 1280 777 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1030,7 +1032,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>58960E78-3142-48B8-817D-FACF07660D3F</string>
 	<key>NoSyncLastTipTime</key>
-	<real>544987348.236696</real>
+	<real>549284286.51654196</real>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -1069,7 +1071,56 @@
 		<string>0024</string>
 		<string>0025</string>
 		<string>0026</string>
+		<string>0027</string>
+		<string>0028</string>
+		<string>0029</string>
+		<string>0030</string>
+		<string>0031</string>
+		<string>0032</string>
+		<string>0033</string>
+		<string>0034</string>
+		<string>0035</string>
+		<string>0036</string>
+		<string>0037</string>
+		<string>0038</string>
+		<string>0039</string>
+		<string>0040</string>
+		<string>0041</string>
+		<string>0042</string>
+		<string>0043</string>
+		<string>0044</string>
+		<string>0045</string>
+		<string>0046</string>
+		<string>0047</string>
+		<string>0048</string>
+		<string>0049</string>
+		<string>0050</string>
+		<string>0051</string>
+		<string>0052</string>
+		<string>0053</string>
+		<string>0054</string>
+		<string>0055</string>
+		<string>0056</string>
+		<string>0057</string>
+		<string>0058</string>
+		<string>0059</string>
+		<string>0060</string>
+		<string>0061</string>
+		<string>0062</string>
+		<string>0063</string>
+		<string>0064</string>
+		<string>0065</string>
+		<string>0066</string>
+		<string>0067</string>
+		<string>0068</string>
+		<string>0069</string>
+		<string>0070</string>
+		<string>0071</string>
 	</array>
+	<key>PMPrintingExpandedStateForPrint2</key>
+	<false/>
+	<key>PasteTabToStringTabStopSize</key>
+	<integer>4</integer>
 	<key>PointerActions</key>
 	<dict>
 		<key>Button,1,1,,</key>
@@ -1105,6 +1156,8 @@
 	</dict>
 	<key>PrefsCustomFolder</key>
 	<string>/Users/acarriger/.dotfiles/iterm2</string>
+	<key>Print In Black And White</key>
+	<true/>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
 	<key>SUFeedAlternateAppNameKey</key>
@@ -1114,13 +1167,17 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-04-09T17:51:22Z</date>
+	<date>2018-09-13T17:10:39Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
+	<key>SUSkippedVersion</key>
+	<string>3.2.0</string>
 	<key>Secure Input</key>
 	<false/>
 	<key>ShowBookmarkName</key>
 	<false/>
+	<key>ShowFullScreenTabBar</key>
+	<true/>
 	<key>StretchTabsToFillBar</key>
 	<false/>
 	<key>UKCrashReporterLastCrashReportDate</key>
@@ -1132,6 +1189,6 @@
 	<key>findMode_iTerm</key>
 	<integer>0</integer>
 	<key>iTerm Version</key>
-	<string>3.1.5</string>
+	<string>3.1.7</string>
 </dict>
 </plist>
