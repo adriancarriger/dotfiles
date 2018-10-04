@@ -42,18 +42,16 @@
   "extensions.ignoreRecommendations": true,
   "git.autofetch": true,
   "docker.showExplorer": false,
-  "doiuse.enable": true,
-  "doiuse.messageLevel": "Information",
-  "doiuse.browsers": [
-    "ie > 10",
-    "> 1%"
-  ],
   "explorer.confirmDelete": false,
   "ruby.rubocop.executePath": "/Users/acarriger/.rvm/gems/ruby-2.4.1/bin/",
   "javascript.suggestionActions.enabled": false,
   "prettier.singleQuote": true,
   "prettier.eslintIntegration": true,
   "prettier.tabWidth": 2,
+  "prettier.printWidth": 100,
   "editor.formatOnSave": true,
-  "files.insertFinalNewline": true
+  "files.insertFinalNewline": true,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "yaml.format.enable": true
 }
