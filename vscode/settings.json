@@ -1,5 +1,5 @@
 {
-  "window.zoomLevel": 0,
+  // Editor
   "editor.minimap.enabled": true,
   "editor.renderWhitespace": "boundary",
   "editor.tabSize": 2,
@@ -8,14 +8,10 @@
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
   "editor.lineHeight": 24,
-  "workbench.colorTheme": "Material Theme",
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.startupEditor": "newUntitledFile",
-  "css.validate": false,
-  "javascript.implicitProjectConfig.checkJs": true,
+  "editor.formatOnSave": true,
   "diffEditor.ignoreTrimWhitespace": true,
-  "git.enableSmartCommit": true,
-  "git.confirmSync": false,
+  "docker.showExplorer": false,
+  "explorer.confirmDelete": false,
   "files.exclude": {
     "**/.git": false
   },
@@ -24,6 +20,39 @@
     "*.env": "properties",
     "default-packages": "shellscript",
     "*.graphcoolrc": "yaml"
+  },
+  "files.insertFinalNewline": true,
+  "window.zoomLevel": 0,
+
+  // Git
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "git.autofetch": true,
+
+  // Syntax specific
+  "javascript.implicitProjectConfig.checkJs": true,
+  "javascript.suggestionActions.enabled": false,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "css.validate": false,
+  "yaml.format.enable": true,
+
+  // Extensions
+  "extensions.ignoreRecommendations": true,
+  "ruby.rubocop.executePath": "/Users/acarriger/.rvm/gems/ruby-2.4.1/bin/",
+
+  // Prettier
+  "prettier.singleQuote": true,
+  "prettier.eslintIntegration": true,
+  "prettier.tabWidth": 2,
+  "prettier.printWidth": 100,
+
+  // Themes
+  "workbench.colorTheme": "Material Theme",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.colorCustomizations": {
+    "editorInfo.foreground": "#00689c"
   },
   "material-icon-theme.showUpdateMessage": false,
   "material-icon-theme.files.associations": {
@@ -36,22 +65,4 @@
   "materialTheme.cache.workbench.settings": {
     "themeColours": "Palenight"
   },
-  "workbench.colorCustomizations": {
-    "editorInfo.foreground": "#00689c"
-  },
-  "extensions.ignoreRecommendations": true,
-  "git.autofetch": true,
-  "docker.showExplorer": false,
-  "explorer.confirmDelete": false,
-  "ruby.rubocop.executePath": "/Users/acarriger/.rvm/gems/ruby-2.4.1/bin/",
-  "javascript.suggestionActions.enabled": false,
-  "prettier.singleQuote": true,
-  "prettier.eslintIntegration": true,
-  "prettier.tabWidth": 2,
-  "prettier.printWidth": 100,
-  "editor.formatOnSave": true,
-  "files.insertFinalNewline": true,
-  "javascript.updateImportsOnFileMove.enabled": "never",
-  "typescript.updateImportsOnFileMove.enabled": "never",
-  "yaml.format.enable": true
 }
