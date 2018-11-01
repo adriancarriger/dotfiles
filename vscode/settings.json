@@ -19,7 +19,8 @@
     "*.symlink": "shellscript",
     "*.env": "properties",
     "default-packages": "shellscript",
-    "*.graphcoolrc": "yaml"
+    "*.graphcoolrc": "yaml",
+    "*.tmp": "javascript"
   },
   "files.insertFinalNewline": true,
   "window.zoomLevel": 0,
@@ -35,7 +36,6 @@
   "javascript.updateImportsOnFileMove.enabled": "never",
   "typescript.updateImportsOnFileMove.enabled": "never",
   "css.validate": false,
-  "yaml.format.enable": true,
 
   // Extensions
   "extensions.ignoreRecommendations": true,
@@ -43,9 +43,9 @@
 
   // Prettier
   "prettier.singleQuote": true,
-  "prettier.eslintIntegration": true,
   "prettier.tabWidth": 2,
   "prettier.printWidth": 100,
+  "prettier.semi": true,
 
   // Themes
   "workbench.colorTheme": "Material Theme",
