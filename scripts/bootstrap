@@ -140,6 +140,15 @@ install_dotfiles () {
   done
 }
 
+create_profile () {
+  if [ ! -f ~/.profile ];
+  then
+    info 'adding empty .profile'
+    touch ~/.profile
+  fi
+}
+
+create_profile
 setup_gitconfig
 install_dotfiles
 
