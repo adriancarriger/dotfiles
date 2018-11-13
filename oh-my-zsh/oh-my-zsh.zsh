@@ -6,7 +6,7 @@ export ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern cursor)
 
 POWERLEVEL9K_COMMAND_EXECUTION_TIME_THRESHOLD=2
 POWERLEVEL9K_MODE='nerdfont-complete'
-DEFAULT_USER=${DOCKER_USER:-acarriger}
+DEFAULT_USER=${DOCKER_USER:-adriancarriger}
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir rbenv vcs)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs command_execution_time time)
 
