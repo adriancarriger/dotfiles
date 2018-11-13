@@ -23,7 +23,7 @@
     "*.tmp": "javascript"
   },
   "files.insertFinalNewline": true,
-  "window.zoomLevel": 0,
+  "window.zoomLevel": 2,
 
   // Git
   "git.enableSmartCommit": true,
