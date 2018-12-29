@@ -20,6 +20,10 @@ then
   # Always open everything in Finder's list view. This is important.
   defaults write com.apple.Finder FXPreferredViewStyle Nlsv
 
+  # Reveal IP address, hostname, OS version, etc. when clicking the clock
+  # in the login window
+  defaults write /Library/Preferences/com.apple.loginwindow AdminHostInfo HostName
+
   # Show the ~/Library folder.
   chflags nohidden ~/Library
 
