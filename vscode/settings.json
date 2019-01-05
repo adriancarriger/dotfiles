@@ -69,5 +69,6 @@
   "rust.rustup": {
     "toolchain": "stable-x86_64-apple-darwin",
     "nightlyToolchain": "nightly-2016-08-01-x86_64-apple-darwin"
-  }
+  },
+  "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, ColumnLimit: 100}"
 }
