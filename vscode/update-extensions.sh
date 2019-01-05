@@ -6,4 +6,4 @@ set -ex
 # run from here
 cd "$(dirname "$0")"
 
-code --list-extensions > extensions
+code-insiders --list-extensions > extensions
