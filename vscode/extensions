@@ -1,5 +1,6 @@
 AESSoft.aessoft-class-autocomplete
 batisteo.vscode-django
+bungcip.better-toml
 christian-kohler.npm-intellisense
 christian-kohler.path-intellisense
 danielpinto8zz6.c-cpp-compile-run
@@ -18,6 +19,7 @@ glen-84.sass-lint
 jbenden.c-cpp-flylint
 jeremyrajan.vscode-lebab
 kaiwood.endwise
+kalitaalexey.vscode-rust
 magicstack.MagicPython
 misogi.ruby-rubocop
 ms-python.python
@@ -29,6 +31,7 @@ Perkovec.emoji
 PeterJausovec.vscode-docker
 PKief.material-icon-theme
 rebornix.ruby
+rust-lang.rust
 third774.hipsum
 Tobermory.es6-string-html
 tokoph.ghosttext

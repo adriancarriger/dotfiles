@@ -64,5 +64,10 @@
   },
   "c-cpp-flylint.flexelint.enable": false,
   "c-cpp-flylint.cppcheck.enable": false,
-  "python.jediEnabled": false
+  "python.jediEnabled": false,
+  "rust.mode": "legacy",
+  "rust.rustup": {
+    "toolchain": "stable-x86_64-apple-darwin",
+    "nightlyToolchain": "nightly-2016-08-01-x86_64-apple-darwin"
+  }
 }
