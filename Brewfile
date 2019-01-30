@@ -41,6 +41,7 @@ brew "watchman"
 brew "wget"
 brew "zsh"
 brew "zsh-completions"
+brew "llvm-hs/llvm/llvm-5.0"
 
 unless ENV['HOMEBREW_SYSTEM'] == 'Linux'
   brew "gcc"
