@@ -8,6 +8,7 @@ tap "puma/puma"
 
 brew "autoconf"
 brew "automake"
+brew "awscli"
 brew "cling"
 brew "cmake"
 brew "coreutils"
@@ -24,6 +25,7 @@ brew "jmeter"
 brew "libksba"
 brew "libyaml"
 brew "llvm@5"
+brew "minidcos", args: ["HEAD"]
 brew "mono", link: false
 brew "ninja"
 brew "openssl@1.1"
