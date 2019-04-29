@@ -20,7 +20,8 @@
     "*.env": "properties",
     "default-packages": "shellscript",
     "*.graphcoolrc": "yaml",
-    "*.tmp": "javascript"
+    "*.tmp": "javascript",
+    "*.dbdiagram.io": "sql"
   },
   "files.insertFinalNewline": true,
   "window.zoomLevel": 1,
