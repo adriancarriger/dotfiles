@@ -61,7 +61,8 @@
     "*.service.ts": "typescript",
     "*.symlink": "console",
     "Gemfile": "ruby",
-    "*.graphcoolrc": "yaml"
+    "*.graphcoolrc": "yaml",
+    "*.dbdiagram.io": "Database"
   },
   "c-cpp-flylint.flexelint.enable": false,
   "c-cpp-flylint.cppcheck.enable": false,
@@ -71,5 +72,7 @@
     "toolchain": "stable-x86_64-apple-darwin",
     "nightlyToolchain": "nightly-2016-08-01-x86_64-apple-darwin"
   },
-  "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, ColumnLimit: 100}"
+  "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, ColumnLimit: 100}",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
 }
