@@ -1,4 +1,5 @@
 AESSoft.aessoft-class-autocomplete
+apollographql.vscode-apollo
 batisteo.vscode-django
 bungcip.better-toml
 christian-kohler.npm-intellisense
@@ -27,6 +28,7 @@ ms-python.python
 ms-vscode.cpptools
 msjsdiag.debugger-for-chrome
 octref.vetur
+OfHumanBondage.react-proptypes-intellisense
 Orta.vscode-jest
 Perkovec.emoji
 PeterJausovec.vscode-docker
