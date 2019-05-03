@@ -57,6 +57,7 @@ unless ENV['HOMEBREW_SYSTEM'] == 'Linux'
   cask "virtualbox"
   cask "visual-studio-code"
   cask "visual-studio-code-insiders"
+  cask "graphql-playground"
   mas "GarageBand", id: 682658836
   mas "GIPHY CAPTURE", id: 668208984
   mas "iMovie", id: 408981434
