@@ -24,6 +24,9 @@ then
   # in the login window
   defaults write /Library/Preferences/com.apple.loginwindow AdminHostInfo HostName
 
+# Restart automatically if the computer freezes
+sudo systemsetup -setrestartfreeze on
+
   # Show the ~/Library folder.
   chflags nohidden ~/Library
 
