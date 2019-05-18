@@ -14,3 +14,9 @@ prettier
 cowsay
 create-react-app
 jest
+preact-cli
+serverless
+@aws-amplify/cli
+knex
+firebase-tools
+electron
