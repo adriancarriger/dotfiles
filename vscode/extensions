@@ -26,6 +26,7 @@ magicstack.MagicPython
 misogi.ruby-rubocop
 ms-python.python
 ms-vscode.cpptools
+ms-vsliveshare.vsliveshare
 msjsdiag.debugger-for-chrome
 octref.vetur
 OfHumanBondage.react-proptypes-intellisense
