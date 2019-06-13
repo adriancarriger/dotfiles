@@ -5,7 +5,6 @@
   "editor.tabSize": 2,
   "editor.snippetSuggestions": "top",
   "editor.autoIndent": true,
-  "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
   "editor.lineHeight": 24,
   "editor.formatOnSave": true,
@@ -24,7 +23,7 @@
     "*.dbdiagram.io": "sql"
   },
   "files.insertFinalNewline": true,
-  "window.zoomLevel": 1,
+  "window.zoomLevel": 0,
 
   // Git
   "git.enableSmartCommit": true,
@@ -74,5 +73,14 @@
   },
   "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, ColumnLimit: 100}",
   "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
