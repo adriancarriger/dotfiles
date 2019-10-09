@@ -5,12 +5,14 @@ brunnerh.insert-unicode
 bungcip.better-toml
 christian-kohler.npm-intellisense
 christian-kohler.path-intellisense
+cymonk.sql-formatter
 danielpinto8zz6.c-cpp-compile-run
 DavidAnson.vscode-markdownlint
+dbaeumer.vscode-eslint
 dbankier.vscode-instant-markdown
 deerawan.vscode-faker
-donjayamanne.jupyter
 donjayamanne.python-extension-pack
+eamodio.gitlens
 eg2.tslint
 eg2.vscode-npm-script
 Equinusocio.vsc-material-theme
@@ -25,6 +27,7 @@ kaiwood.endwise
 kalitaalexey.vscode-rust
 magicstack.MagicPython
 misogi.ruby-rubocop
+ms-mssql.mssql
 ms-python.python
 ms-vscode.cpptools
 ms-vscode.vscode-typescript-tslint-plugin
