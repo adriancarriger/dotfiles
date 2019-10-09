@@ -24,29 +24,24 @@
   },
   "files.insertFinalNewline": true,
   "window.zoomLevel": 0,
-
   // Git
   "git.enableSmartCommit": true,
   "git.confirmSync": false,
   "git.autofetch": true,
-
   // Syntax specific
   "javascript.implicitProjectConfig.checkJs": true,
   "javascript.suggestionActions.enabled": false,
   "javascript.updateImportsOnFileMove.enabled": "never",
   "typescript.updateImportsOnFileMove.enabled": "never",
   "css.validate": false,
-
   // Extensions
   "extensions.ignoreRecommendations": true,
   "ruby.rubocop.executePath": "/Users/acarriger/.rvm/gems/ruby-2.4.1/bin/",
-
   // Prettier
   "prettier.singleQuote": true,
   "prettier.tabWidth": 2,
   "prettier.printWidth": 100,
   "prettier.semi": true,
-
   // Themes
   "workbench.colorTheme": "Material Theme",
   "workbench.iconTheme": "material-icon-theme",
