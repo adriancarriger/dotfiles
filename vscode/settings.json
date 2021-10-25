@@ -3,17 +3,34 @@
   "editor.minimap.enabled": true,
   "editor.renderWhitespace": "boundary",
   "editor.tabSize": 2,
-  "editor.snippetSuggestions": "top",
-  "editor.autoIndent": true,
+  "editor.snippetSuggestions": "bottom",
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
   "editor.lineHeight": 24,
   "editor.formatOnSave": true,
-  "diffEditor.ignoreTrimWhitespace": true,
+  "diffEditor.ignoreTrimWhitespace": false,
   "docker.showExplorer": false,
   "explorer.confirmDelete": false,
   "files.exclude": {
     "**/.git": false
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/*.code-search": true,
+    "**/graphql-schema.json": true,
+    "**/build": true,
+    "**/dist": true,
+    "**/collected_static": true,
+    "**/linkchecking": true,
+    "**/public": false,
+    "**/.git": true,
+    "**/.cache": true,
+    "**/public/page-data": true,
+    "**/public/static": true,
+    "**/errored.tfstate": true,
+    "**/*.log": true,
+    "**/segment/js/*": true
   },
   "files.associations": {
     "*.symlink": "shellscript",
@@ -30,7 +47,6 @@
   "git.confirmSync": false,
   "git.autofetch": true,
   // Syntax specific
-  "javascript.implicitProjectConfig.checkJs": true,
   "javascript.suggestionActions.enabled": false,
   "javascript.updateImportsOnFileMove.enabled": "never",
   "typescript.updateImportsOnFileMove.enabled": "never",
@@ -43,8 +59,7 @@
   "prettier.tabWidth": 2,
   "prettier.printWidth": 100,
   "prettier.semi": true,
-  // Themes
-  "workbench.colorTheme": "Material Theme",
+  "prettier.prettierPath": "frontend/node_modules/prettier/index.js",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.colorCustomizations": {
@@ -69,5 +84,66 @@
   },
   "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, ColumnLimit: 100}",
   "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "python.linting.flake8Enabled": true,
+  "python.linting.pylintEnabled": false,
+  "workbench.colorTheme": "Material Theme",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "python.languageServer": "Microsoft",
+  "npm.packageManager": "yarn",
+  "eslint.validate": ["javascript", "javascriptreact", "html", "typescriptreact"],
+  "eslint.workingDirectories": ["./frontend"],
+  "eslint.packageManager": "pnpm",
+  "pgsql.connections": [
+    {
+      "host": "localhost",
+      "dbname": "postgres",
+      "user": "docker",
+      "password": "",
+      "emptyPasswordInput": false,
+      "port": "6432",
+      "profileName": "asdf2"
+    }
+  ],
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[graphql]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "mssql.connections": [
+    {
+      "server": "{{put-server-name-here}}",
+      "database": "{{put-database-name-here}}",
+      "user": "{{put-username-here}}",
+      "password": "{{put-password-here}}"
+    }
+  ]
 }
