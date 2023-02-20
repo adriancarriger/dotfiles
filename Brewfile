@@ -23,7 +23,6 @@ brew "curl"
 brew "docker", link: false
 brew "docker-clean"
 brew "docker-completion"
-brew "docker-compose-completion"
 brew "dos2unix"
 brew "libtool"
 brew "git"
@@ -39,8 +38,6 @@ brew "llvm"
 brew "md5sha1sum", link: false
 brew "pkg-config"
 brew "readline"
-# brew "python"
-brew "python@2"
 brew "rustup-init"
 brew "screen"
 brew "spark"
@@ -51,14 +48,11 @@ brew "watchman"
 brew "wget"
 brew "zsh"
 brew "zsh-completions"
-cask "dbeaver-community"
-cask "docker-toolbox"
 
 unless ENV['HOMEBREW_SYSTEM'] == 'Linux'
   brew "gcc"
   brew "mas"
   brew "putty"
-  brew "tesseract", args: ["with-all-languages"]
 
   cask "font-fira-code"
   cask "font-hack-nerd-font"
@@ -66,15 +60,8 @@ unless ENV['HOMEBREW_SYSTEM'] == 'Linux'
   cask "ngrok"
   cask "postman"
   cask "spectacle"
-  cask "virtualbox"
   cask "visual-studio-code"
   cask "visual-studio-code-insiders"
-  mas "GIPHY CAPTURE", id: 668208984
-  mas "Keynote", id: 409183694
-  mas "Microsoft Remote Desktop", id: 715768417
-  mas "MindNode Pro", id: 402398561
-  mas "Numbers", id: 409203825
-  mas "Pages", id: 409201541
   mas "Slack", id: 803453959
-  mas "Wunderlist", id: 410628904
+  # mas "Wunderlist", id: 410628904
 end

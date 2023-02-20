@@ -49,5 +49,14 @@
   {
     "key": "cmd+k cmd+c",
     "command": "workbench.files.action.collapseExplorerFolders"
+  },
+  {
+    "key": "ctrl+alt+cmd+c",
+    "command": "editor.action.goToTypeDefinition"
+  },
+  {
+    "key": "cmd+shift",
+    "command": "editor.action.goToDeclaration",
+    "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
   }
 ]
