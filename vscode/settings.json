@@ -9,7 +9,6 @@
   "editor.lineHeight": 24,
   "editor.formatOnSave": true,
   "diffEditor.ignoreTrimWhitespace": false,
-  "docker.showExplorer": false,
   "explorer.confirmDelete": false,
   "files.exclude": {
     "**/.git": false
@@ -41,7 +40,6 @@
     "*.dbdiagram.io": "sql"
   },
   "files.insertFinalNewline": true,
-  "window.zoomLevel": 1,
   // Git
   "git.enableSmartCommit": true,
   "git.confirmSync": false,
@@ -53,19 +51,16 @@
   "css.validate": false,
   // Extensions
   "extensions.ignoreRecommendations": true,
-  "ruby.rubocop.executePath": "/Users/acarriger/.rvm/gems/ruby-2.4.1/bin/",
   // Prettier
   "prettier.singleQuote": true,
   "prettier.tabWidth": 2,
   "prettier.printWidth": 100,
   "prettier.semi": true,
-  "prettier.prettierPath": "frontend/node_modules/prettier/index.js",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.colorCustomizations": {
     "editorInfo.foreground": "#00689c"
   },
-  "material-icon-theme.showUpdateMessage": false,
   "material-icon-theme.files.associations": {
     // For non-Angular services
     "*.service.ts": "typescript",
@@ -74,17 +69,7 @@
     "*.graphcoolrc": "yaml",
     "*.dbdiagram.io": "Database"
   },
-  "c-cpp-flylint.flexelint.enable": false,
-  "c-cpp-flylint.cppcheck.enable": false,
-  "python.jediEnabled": false,
-  "rust.mode": "legacy",
-  "rust.rustup": {
-    "toolchain": "stable-x86_64-apple-darwin",
-    "nightlyToolchain": "nightly-2016-08-01-x86_64-apple-darwin"
-  },
-  "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, ColumnLimit: 100}",
   "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -94,36 +79,17 @@
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "python.linting.flake8Enabled": true,
-  "python.linting.pylintEnabled": false,
   "workbench.colorTheme": "Material Theme",
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "python.languageServer": "Default",
   "npm.packageManager": "yarn",
   "eslint.validate": ["javascript", "javascriptreact", "html", "typescriptreact"],
-  "eslint.workingDirectories": ["./frontend"],
-  "eslint.packageManager": "pnpm",
-  "pgsql.connections": [
-    {
-      "host": "localhost",
-      "dbname": "postgres",
-      "user": "docker",
-      "password": "",
-      "emptyPasswordInput": false,
-      "port": "6432",
-      "profileName": "asdf2"
-    }
-  ],
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter-notebook"
   },
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[python]": {
-    "editor.defaultFormatter": "ms-python.python"
   },
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
@@ -138,12 +104,16 @@
     "default": "right",
     "jupyter-notebook": "left"
   },
-  "mssql.connections": [
-    {
-      "server": "{{put-server-name-here}}",
-      "database": "{{put-database-name-here}}",
-      "user": "{{put-username-here}}",
-      "password": "{{put-password-here}}"
-    }
-  ]
+  "github.copilot.advanced": {},
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": true,
+    "plaintext": true,
+    "markdown": true
+  },
+  "editor.inlineSuggest.enabled": true,
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "window.zoomLevel": 1
 }
