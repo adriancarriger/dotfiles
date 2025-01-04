@@ -1,17 +1,8 @@
-tap "homebrew/bundle"
-tap "homebrew/cask"
-tap "homebrew/cask-fonts"
-tap "homebrew/cask-versions"
-tap "homebrew/core"
-tap "homebrew/services"
-tap "puma/puma"
-
 brew "openssl"
 brew "autoconf"
 brew "autoconf-archive"
 brew "automake"
 brew "gdbm"
-brew "openssl@1.1"
 brew "sqlite"
 brew "python"
 brew "awscli"
@@ -61,7 +52,7 @@ unless ENV['HOMEBREW_SYSTEM'] == 'Linux'
   cask "postman"
   cask "spectacle"
   cask "visual-studio-code"
-  cask "visual-studio-code-insiders"
+  # cask "visual-studio-code-insiders"
   mas "Slack", id: 803453959
   # mas "Wunderlist", id: 410628904
 end
