@@ -58,5 +58,15 @@
     "key": "cmd+shift",
     "command": "editor.action.goToDeclaration",
     "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+  },
+  {
+    "key": "shift+cmd",
+    "command": "chatEditor.action.reject",
+    "when": "chatEdits.hasEditorModifications && editorFocus"
+  },
+  {
+    "key": "cmd+backspace",
+    "command": "-chatEditor.action.reject",
+    "when": "chatEdits.hasEditorModifications && editorFocus"
   }
 ]

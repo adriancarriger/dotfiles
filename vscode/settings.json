@@ -29,7 +29,8 @@
     "**/public/static": true,
     "**/errored.tfstate": true,
     "**/*.log": true,
-    "**/segment/js/*": true
+    "**/segment/js/*": true,
+    "**/.next": true
   },
   "files.associations": {
     "*.symlink": "shellscript",
@@ -56,7 +57,7 @@
   "prettier.tabWidth": 2,
   "prettier.printWidth": 100,
   "prettier.semi": true,
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "Monokai Pro (Filter Machine) Icons",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.colorCustomizations": {
     "editorInfo.foreground": "#00689c"
@@ -79,12 +80,12 @@
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.colorTheme": "Material Theme",
   "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.json-language-features"
   },
   "npm.packageManager": "yarn",
   "eslint.validate": ["javascript", "javascriptreact", "html", "typescriptreact"],
+  "eslint.trace.server": "verbose",
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter-notebook"
   },
@@ -112,8 +113,63 @@
     "markdown": true
   },
   "editor.inlineSuggest.enabled": true,
-  "[shellscript]": {
-    "editor.defaultFormatter": "foxundermoon.shell-format"
-  },
-  "window.zoomLevel": 1
+  "window.zoomLevel": 1,
+  "npm.keybindingsChangedWarningShown": true,
+  "playwright.reuseBrowser": true,
+  "playwright.showTrace": false,
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "github.copilot.chat.editor.temporalContext.enabled": true,
+  "github.copilot.chat.edits.temporalContext.enabled": true,
+  "github.copilot.chat.languageContext.typescript.enabled": true,
+  "github.copilot.chat.search.semanticTextResults": true,
+  "extensions.trustedPublishers": [
+    "aessoft",
+    "andys8",
+    "apollographql",
+    "batisteo",
+    "brunnerh",
+    "bungcip",
+    "christian-kohler",
+    "cymonk",
+    "danielpinto8zz6",
+    "davidanson",
+    "dbankier",
+    "deerawan",
+    "donjayamanne",
+    "eamodio",
+    "eg2",
+    "equinusocio",
+    "esbenp",
+    "formulahendry",
+    "glen-84",
+    "jbenden",
+    "jeremyrajan",
+    "jithurjacob",
+    "kaiwood",
+    "kevinrose",
+    "magicstack",
+    "misogi",
+    "njpwerner",
+    "octref",
+    "ofhumanbondage",
+    "orta",
+    "perkovec",
+    "pkief",
+    "rebornix",
+    "rust-lang",
+    "third774",
+    "toba",
+    "tobermory",
+    "tokoph",
+    "waderyan",
+    "wholroyd",
+    "wingrunr21"
+  ],
+  "github.copilot.chat.enableUserPreferences": true,
+  "workbench.colorTheme": "Atom Material Theme",
+  "gitlens.ai.model": "vscode",
+  "gitlens.ai.vscode.model": "copilot:claude-sonnet-4",
+  "security.promptForLocalFileProtocolHandling": false,
+  "githubPullRequests.pullBranch": "never",
+  "remote.autoForwardPortsSource": "hybrid"
 }
